@@ -73,7 +73,7 @@ class VehicleDynamicsModel:
         # 解包输入
         throttle, brake, steer = inputs
 
-        # 安全处理，避免除零错误
+        # 安全处理，以及避免除零错误
         vx_safe = max(0.5, vx)
 
         # --- 以下为来自 main.py 的新计算逻辑 ---
