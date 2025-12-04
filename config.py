@@ -1,6 +1,6 @@
 import os
 
-# 路径配置
+# 路径配置1
 DATA_DIR = "data"
 MODEL_DIR = "model"
 SCALERS_DIR = "scalers"
